@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 18
-VisualStudioVersion = 18.0.11018.127 d18.0
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlgoLab.Core", "src\AlgoLab.Core\AlgoLab.Core.csproj", "{0D9E426A-16CB-400B-8A36-CCD5524D042F}"
 EndProject
@@ -9,6 +9,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlgoLab.CLI", "src\AlgoLab.CLI\AlgoLab.CLI.csproj", "{432B8391-D1F0-49CA-8DBC-05EA418697BE}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlgoLab.Tests", "tests\AlgoLab.Tests\AlgoLab.Tests.csproj", "{57C78C18-8ED1-4687-A6F9-1CA08A83D7FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Export", "src\Export\Export.csproj", "{29744620-46A9-2D69-D3D0-1D576EE84EE9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,8 +34,15 @@ Global
 		{57C78C18-8ED1-4687-A6F9-1CA08A83D7FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57C78C18-8ED1-4687-A6F9-1CA08A83D7FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57C78C18-8ED1-4687-A6F9-1CA08A83D7FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29744620-46A9-2D69-D3D0-1D576EE84EE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29744620-46A9-2D69-D3D0-1D576EE84EE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29744620-46A9-2D69-D3D0-1D576EE84EE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29744620-46A9-2D69-D3D0-1D576EE84EE9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6BD88D73-BDF1-4703-9BD4-CCE4B4F94B28}
 	EndGlobalSection
 EndGlobal
